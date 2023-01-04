@@ -31,8 +31,8 @@ let s:gui06        = "999999"
 let g:base16_gui06 = "999999"
 let s:gui07        = "c1c1c1"
 let g:base16_gui07 = "c1c1c1"
-let s:gui08        = "B0BEC5"
-let g:base16_gui08 = "B0BEC5"
+let s:gui08        = "e4e4ef"
+let g:base16_gui08 = "e4e4ef"
 let s:gui09        = "aaaaaa"
 let g:base16_gui09 = "aaaaaa"
 let s:gui0A        = "c6c6c6"
@@ -43,8 +43,8 @@ let s:gui0C        = "aaaaaa"
 let g:base16_gui0C = "aaaaaa"
 let s:gui0D        = "888888"
 let g:base16_gui0D = "888888"
-let s:gui0E        = "ab9ae6"
-let g:base16_gui0E = "ab9ae6"
+let s:gui0E        = "ae95c7"
+let g:base16_gui0E = "ae95c7"
 let s:gui0F        = "444444"
 let g:base16_gui0F = "444444"
 
@@ -240,7 +240,7 @@ call <sid>hi("Keyword",      s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("Label",        s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("Number",       s:gui09, "", s:cterm09, "", "", "")
 call <sid>hi("Operator",     s:gui05, "", s:cterm05, "", "none", "")
-call <sid>hi("PreProc",      s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("PreProc",      s:gui0E, "", s:cterm0A, "", "", "")
 call <sid>hi("Repeat",       s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("Special",      s:gui0C, "", s:cterm0C, "", "", "")
 call <sid>hi("SpecialChar",  s:gui0F, "", s:cterm0F, "", "", "")
