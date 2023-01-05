@@ -101,18 +101,18 @@ endif
 if has("nvim")
   let g:terminal_color_0 =  "#141414"
   let g:terminal_color_1 =  "#e4e4ef"
-  let g:terminal_color_2 =  "#fbcb97"
-  let g:terminal_color_3 =  "#e78a53"
+  let g:terminal_color_2 =  "#d9c9ba"
+  let g:terminal_color_3 =  "#d9c9ba"
   let g:terminal_color_4 =  "#888888"
   let g:terminal_color_5 =  "#e4e4ef"
   let g:terminal_color_6 =  "#aaaaaa"
   let g:terminal_color_7 =  "#c1c1c1"
   let g:terminal_color_8 =  "#333333"
-  let g:terminal_color_9 =  "#5f8787"
+  let g:terminal_color_9 =  "#9cb3b3"
   let g:terminal_color_10 = "#c7ae95"
-  let g:terminal_color_11 = "#e78a53"
+  let g:terminal_color_11 = "#c7ae95"
   let g:terminal_color_12 = "#888888"
-  let g:terminal_color_13 = "#ab9ae6"
+  let g:terminal_color_13 = "#ae95c7"
   let g:terminal_color_14 = "#aaaaaa"
   let g:terminal_color_15 = "#c1c1c1"
   let g:terminal_color_background = g:terminal_color_0
@@ -122,21 +122,21 @@ if has("nvim")
     let g:terminal_color_foreground = g:terminal_color_2
   endif
 elseif has("terminal")
-  let g:terminal_ansi_colors = [
-        \ "#000000",
-        \ "#5f8787",
-        \ "#fbcb97",
-        \ "#e78a53",
+  let g:terminal_ansi_colors = [ 
+        \ "#141414",
+        \ "#e4e4ef",
+        \ "#d9c9ba",
+        \ "#d9c9ba",
         \ "#888888",
-        \ "#999999",
+        \ "#e4e4ef",
         \ "#aaaaaa",
         \ "#c1c1c1",
         \ "#333333",
-        \ "#5f8787",
-        \ "#fbcb97",
+        \ "#9cb3b3",
+        \ "#c7ae95",
         \ "#e78a53",
         \ "#888888",
-        \ "#999999",
+        \ "#ae95c7",
         \ "#aaaaaa",
         \ "#c1c1c1",
         \ ]
